@@ -1,0 +1,12 @@
+.start-screen{
+    background-color: #404040;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%; /*damit Scroll-Balken berücksichtigt, was nicht bei width 100vw passiert*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        height: 100vh;
+    }
+}

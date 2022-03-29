@@ -1,5 +1,5 @@
 export class Game {                      // leeres JSON-Objekt angelegt
-    public players: string[]  = ['Freddy', 'Lucy', 'Antony'];
+    public players: string[]  = [];
     public stack: string[]  = [];
     public playedCards: string[]  = [];
     public currentPlayer: number  = 0;

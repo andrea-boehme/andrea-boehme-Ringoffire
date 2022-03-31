@@ -1,5 +1,6 @@
 .start-screen{
-    background-color: #404040;
+    background: url('/assets/img/startbox.png');
+    background-position: center;
     width: 100vw;
     height: 100vh;
     max-width: 100%; /*damit Scroll-Balken berücksichtigt, was nicht bei width 100vw passiert*/
@@ -7,6 +8,7 @@
     justify-content: center;
     align-items: center;
     img {
-        height: 100vh;
+        height: 20vh;
+        margin-top: 500px;
     }
 }
